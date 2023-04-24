@@ -13,7 +13,8 @@ const loadword=async(search)=>{
 
 const displayword=(data)=>{
 const wordcontainer=document.getElementById('wordcontainer')
-console.log(data);
+// console.log(data);
+wordcontainer.innerHTML=''
 wordcontainer.innerHTML=`
     <p class="list-group-item">Full Name: <span class="span">${data}</span></p>
     `
